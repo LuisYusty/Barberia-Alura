@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.principal {
+    background-color: #cccc;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.img-barberia{
+    width: 100%;
+
+}
+.line {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.contenido {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.sobre-nosotros {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: center;
+}
+
+.mision{
+    font-size: 18px;
+    font-style: italic;
+    color: red;
+}
+
+.item{
+    font-style: italic;
+}
+
+.diferenciales-principal{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.diferenciales-principal h2{
+    text-align: center;
+    width: 100%;
+}
+
+.diferenciales{
+    margin-top: 15px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.img-diferencial{
+    margin-left: 90px;
+    width: 50%;
+}
