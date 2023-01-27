@@ -10,12 +10,16 @@
 
 .titulo {
     text-align: center;
+    align-items: center;
 }
 
+header h1 {
+    text-align: center;
+}
 .img-barberia{
     width: 100%;
-
 }
+
 .line {
     width: 90%;
     margin-left: auto;
@@ -38,35 +42,89 @@ p {
     text-align: center;
 }
 
-.mision{
+.mision {
     font-size: 18px;
     font-style: italic;
     color: red;
 }
 
-.item{
+.item {
     font-style: italic;
 }
 
-.diferenciales-principal{
+.diferenciales-principal {
     width: 100%;
     height: auto;
     margin-top: 20px;
 
 }
 
-.diferenciales-principal h2{
+.diferenciales-principal h2 {
     text-align: center;
     width: 100%;
 }
 
-.diferenciales{
+.diferenciales {
     margin-top: 15px;
     display: flex;
     margin-left: 100px;
 }
 
-.img-diferencial{
+.img-diferencial {
     margin-left: 90px;
     width: 50%;
+    border-radius: 5px;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000;
 }
+.img-diferencial:hover{
+    opacity: 0.3;
+}
+
+.mapa {
+    padding: 3em 0;
+    text-align: center;
+    background-color: #cccc;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+
+}
+
+footer {
+    border-radius: 3px;
+    background-color: black;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    margin-top: 30px;
+    margin-right: 12px;
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+/* configurar responsive
+@media screen and (max-with:480px){
+
+    body{
+        background: red;
+    }
+}
+*/
